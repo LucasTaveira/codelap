@@ -10,3 +10,14 @@ class CareerSerializer(serializers.ModelSerializer):
             'title',
             'content',
         )
+
+class CareerListSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Career
+        fields = (
+            'id',
+            'username',
+            'created_datetime',
+            'title',
+            'content',
+        )

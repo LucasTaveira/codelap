@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-d^)b86m-&(oz%5@bptu=9tid%r&i+s+!r+99c(1*zh8ils24f2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['dev.codeleap.co.uk', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['*',]
 
 
 # Application definition
