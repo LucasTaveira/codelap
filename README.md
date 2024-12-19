@@ -43,9 +43,15 @@ https://dev.codeleap.co.uk/
 Make sure to have your local hosts file updated to resolve the custom domain to 127.0.0.1 or the appropriate IP of the Django container.
 
 #### API Endpoints:
- - POST /register: Register a new person with their career information.
- - GET /people: Retrieve a list of all registered people.
- - GET /people/{id}: Retrieve a person's details by their ID.
+ - POST /careers: Register a new person with their career information.
+ - GET /careers: Retrieve a list of all registered people.
+ - GET /careers/{id}: Retrieve a person's details by their ID.
+
+ - https://dev.codeleap.co.uk/careers 
+>OR 
+ - https://127.0.0.1:8000/careers 
+
+
 
 #### Development:
  - This API is developed using Django, and Docker is used for containerization. The backend is accessible at port 8000 inside the container and is served via Nginx on ports 80 and 443.
